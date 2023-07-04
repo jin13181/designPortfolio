@@ -1,0 +1,57 @@
+.stack {
+  background-color: #efebe6;
+}
+.stackBoxWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stackBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  border-bottom: 1px solid #203929;
+}
+
+.stackBox h4 {
+  color: #203929;
+}
+.innerBoxWrap {
+  display: flex;
+}
+.innerBox {
+  display: flex;
+  width: 90%;
+  /* border: 1px solid #203929; */
+}
+
+.innerBox .imgBox {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid #203929; */
+  display: flex;
+  align-items: center;
+}
+
+.innerBox .imgBox img {
+  margin: auto;
+}
+
+#phpimg:hover p#phpimg {
+  display: block;
+}
+
+.innerImgBox {
+  margin: auto;
+}
+.innerBox .imgBox img {
+  height: 50px;
+}
+
+.innerBox p {
+  display: none;
+  width: 100%;
+  border: 1px solid #203929;
+}

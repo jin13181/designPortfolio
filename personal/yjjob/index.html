@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대구 국비지원 무료교육 영진직업전문학교</title>
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-3.6.1.js"></script>
+    <script src="./js/swiper-bundle.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-top">
+            <nav id='lnb'>
+                <ul>
+                    <li><a href="">학생관리</a></li>
+                    <li><a href="">NCS평가</a></li>
+                    <li><a href="">시험응시</a></li>
+                    <li><a href="">정보수정</a></li>
+                    <li><a href="">회원탈퇴</a></li>
+                    <li><a href="">로그아웃</a></li>
+                    <li><a href="">사이트맵</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header-bottom">
+            <nav id='gnb'>
+                <div id='logo-img'>
+                    <img src="./images/kb_log.png" alt=""><br />
+                    <img src="./images/yj_log.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="">모집과정</a></li>
+                    <li><a href="">입학상담</a></li>
+                    <li><a href="">과정소개</a></li>
+                    <li><a href="">취업센터</a></li>
+                    <li><a href="">커뮤니티</a></li>
+                    <li><a href="">학교소개</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="slide" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <img class="swiper-slide" src="./images/mainpage (1).png" alt="">
+            <img class="swiper-slide" src="./images/mainpage (2).png" alt="">
+            <img class="swiper-slide" src="./images/mainpage (3).png" alt="">
+            <img class="swiper-slide" src="./images/mainpage (4).png" alt="">
+            <img class="swiper-slide" src="./images/mainpage (5).png" alt="">
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div id="section2">
+        <section id="class">
+            <div class="container">
+                <ul class="section2-tab">
+                    <li class="on">전체과정</li>
+                    <li>IT/SW</li>
+                    <li>전기PLC</li>
+                    <li>기계설계</li>
+                    <li>디자인</li>
+                    <li>용접</li>
+                </ul>
+                <div class="section2-cont">
+                    <div class="on">
+                        <img src="./images/class_tab_item01.png">
+                        <img src="./images/class_tab_item02.png">
+                        <img src="./images/class_tab_item03.png">
+                        <img src="./images/class_tab_item04.png">
+                    </div>
+                    <div>
+                        <img src="./images/class_tab_item05.png">
+                        <img src="./images/class_tab_item06.png">
+                        <img src="./images/class_tab_item07.png">
+                        <img src="./images/class_tab_item08.png">
+                    </div>
+                    <div>
+                        <img src="./images/class_tab_item05.png">
+                    </div>
+                    <div>
+                        <img src="./images/class_tab_item06.png">
+                    </div>
+                    <div>
+                        <img src="./images/class_tab_item07.png">
+                        <img src="./images/class_tab_item08.png">
+                    </div>
+                    <div>
+                        <img src="./images/class_tab_item08.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='section3'>
+            <div>
+                <input id="first" type="radio" name="tap" checked="checked" />
+                <input id="second" type="radio" name="tap" />
+                <section class="buttons">
+                    <label for="first">구직자를 위한 교육</label>
+                    <label for="second">직장인을 위한 교육</label>
+                </section>
+                <div>
+                    <div>
+                        <div>
+                            <img src="./images/edu_tab_item01.png" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <img src="./images/edu_tab_item02.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div id=footer-wrapper>
+            <p>개인정보보호정책 메일주소무단수집거부</p> <br />
+            <hr />
+            <br />
+            <p>회사명 : 영진직업전문학교 대표자 : 곽승호, 차영숙 cha8877@hanmail.net Tel : 053-983-8877 Fax : 053-722-2423 개인정보보호책임자 : 곽창운
+                cha8877@hanmail.net Tel : 053-983-8877 사업자번호 : 502-95-07029<br />
+
+                701-835 대구광역시 동구 화랑로 525(용계동), 조경실습장 : 대구 동구 도동 806-21<br />
+
+                opyright © 대구 국비지원 무료교육 영진직업전문학교. All Rights Reserved.<br />
+            </p>
+            <div id='footer-ico'>
+                <img src="./images/footer_sns01.png" alt="">
+                <img src="./images/footer_sns02.png" alt="">
+                <img src="./images/footer_sns03.png" alt="">
+                <img src="./images/footer_sns04.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <!--slide 실행 -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            autoplay: {     //자동슬라이드 (false-비활성화)
+                delay: 2500, // 시간 설정
+                disableOnInteraction: false, // false-스와이프 후 자동 재생
+            },
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".section2-tab li").click(function () {
+                var idx = $(this).index();
+                $(".section2-tab li").removeClass("on");
+                $(".section2-tab li").eq(idx).addClass("on");
+                $(".section2-cont > div").hide();
+                $(".section2-cont > div").eq(idx).show();
+            })
+        });
+    </script>
+
+</body>
+
+</html>

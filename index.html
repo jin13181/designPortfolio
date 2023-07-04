@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://jin13181.github.io/portfolio" />
+    <meta property="og:title" content="정연진 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/thumbnail.png" />
+    <meta
+      property="og:description"
+      content="안녕하세요. 개발자 정연진입니다."
+    />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./style/common.css" />
+    <link rel="stylesheet" href="./style/about.css" />
+    <link rel="stylesheet" href="./style/aside.css" />
+    <link rel="stylesheet" href="./style/stack.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/portfolio.css" />
+    <link rel="stylesheet" href="./style/topNav.css" />
+    <!-- <link href="//db.onlinewebfonts.com/c/22b4c73e6141de7c9937f42cb58bdb4b?family=GT+America+Expanded+Bold" rel="stylesheet" type="text/css"/> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9173af44c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery-3.6.1.js"></script>
+    <!-- <script src="./js/scroll.js"></script> -->
+    <title>Portfolio</title>
+    <style>
+      .color-green {
+        background-color: #7a4eab;
+      }
+      .color-beige {
+        background-color: #4332cf;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== Main Container Start ===== -->
+    <div class="main-container">
+      <!-- ===== Aside Start ===== -->
+      <div class="aside">
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i> Portfoilo</a>
+          </li>
+          <li>
+            <a href="#stack"><i class="fa fa-list"></i> Stack</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="topNav">
+        <div class="">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfoilo</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- ===== Aside End ===== -->
+
+      <!-- ===== Main Content Start ===== -->
+      <div class="main-content">
+        <!-- ===== About Section Start ===== -->
+        <section class="main section active color" id="home" data-color="green">
+          <div class="container titleContainer">
+            <div class="title">
+              <h3 data-scroll data-scroll-speed="1">Hello, I'm YeonJin</h3>
+              <br />
+            </div>
+            <a href="#about"><span></span>Scroll</a>
+          </div>
+        </section>
+        <section class="about section color" id="about" data-color="beige">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- about-content -->
+              <div class="about-content padd-15">
+                <div class="left">
+                  <div>
+                    <div class="about-text padd-15">
+                      <h3>YeonJin<br />Jung</h3>
+                      <p>새로운 도전을 두려워하지 않는 개발자 정연진<br /></p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="">
+                      <div class="personal-info row">
+                        <!-- 1 -->
+                        <div class="info-item padd-15">
+                          <p>Name : <span>정연진</span></p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="info-item padd-15">
+                          <p>Mail : <span>jin13181@gmail.com</span></p>
+                        </div>
+                        <!-- 3 -->
+                        <!-- 6 -->
+                        <div class="info-item padd-15">
+                          <p>Education : <span>경북대학교 화학전공</span></p>
+                        </div>
+                        <!-- 7 -->
+                        <div class="info-item padd-15">
+                          <p>
+                            Blog :
+                            <span
+                              ><a href="http://jin13181.ivyro.net"
+                                >http://jin13181.ivyro.net</a
+                              ></span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="buttons padd-15 color" data-color="green">
+                    <a href="./pages/cv.html" class="btn">웹에서 이력서 보기</a>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="education">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline">
+                          <!-- ===== Timeline iTem Start ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2022.08.08 ~
+                              2023.03.02
+                            </h3>
+                            <h4 class="timeline-title">
+                              국가기간•전략산업직종 훈련 과정 수료
+                            </h4>
+                            <p class="timeline-text">
+                              - 영진직업전문학교<br />
+                              - K-Digital Training<br />
+                              - Open API를 활용한 스마트 웹&앱 콘텐츠 실무
+                              개발자 과정 수료
+                            </p>
+                          </div>
+                          <!-- ===== Timeline iTem End ===== -->
+                          <!-- ===== Timeline iTem Start ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2014.02 ~ 2019.08
+                            </h3>
+                            <h4 class="timeline-title">경북대학교 졸업</h4>
+                            <p class="timeline-text">
+                              - 자연과학계열<br />
+                              - 화학 전공<br />
+                            </p>
+                          </div>
+                          <!-- ===== Timeline iTem End ===== -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="experience">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline"> -->
+                  <!-- ===== Timeline iTem Start ===== -->
+                  <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2023.02.01. ~
+                              2023.02.28.
+                            </h3>
+                            <h4 class="timeline-title">
+                              GPS인증 하이브리드 앱 콘텐츠 개발
+                            </h4> -->
+                  <!-- <p class="timeline-text">
+                              1) 대구 각 관광명소를 배경으로 돌아보며 QR코드를
+                              스캔하여 스탬프를 모으면서 대구 관광명소를 알리고,
+                              추가적인 지역발전을 도모하는 목표로 기획.<br />
+                              2) 로그인, 회원가입, 팝업 등 전반적인 화면 구성을
+                              담당
+                            </p>
+                          </div> -->
+                  <!-- ===== Timeline iTem End ===== -->
+                  <!-- ===== Timeline iTem ===== -->
+                  <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2023.01.04. ~
+                              2023.01.31.
+                            </h3>
+                            <h4 class="timeline-title">
+                              Open API를 활용한 SNS 마케팅 자동화 스마트 웹앱
+                              구현
+                            </h4>
+                            <p class="timeline-text">
+                              1) 대구에서 시작한 숙박 예약 플랫폼 [꿀스테이]를
+                              대상으로 카카오 알림톡 API를 이용한 마케팅 자동화
+                              서비스 프로젝트<br />
+                              2) 프로젝트 기획 및 피드백, 전반적인 화면 퍼블리싱
+                              담당<br />
+                              3) 영진전문대학 주최. Open API 활용 콘텐츠 개발
+                              공모전 은상 수상
+                            </p>
+                          </div> -->
+                  <!-- ===== Timeline iTem End ===== -->
+                  <!-- ===== Timeline iTem ===== -->
+                  <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2022.11.17. ~
+                              2022.12.16.
+                            </h3>
+                            <h4 class="timeline-title">
+                              Open API를 활용한 SNS 연동 회원관리 시스템
+                            </h4>
+                            <p class="timeline-text">
+                              1) 대구에 위치한 [대구백화점]을 대상으로 Open
+                              API를 이용한 SNS 연동 회원관리 시스템 프로젝트<br />
+                              2) 서브페이지 퍼블리싱 및 Open API를 이용한
+                              로그인, 회원가입 시스템 구현<br />
+                              3) 송암재단 주최. 송암재단 제 11회 송암전 최우수상
+                              수상
+                            </p>
+                          </div> -->
+                  <!-- ===== Timeline iTem End ===== -->
+                  <!-- </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- // about-content -->
+          </div>
+        </section>
+        <!-- ===== About Section End ===== -->
+
+        <!-- ===== Portfolio Section  Start ===== -->
+        <!-- portfolio container Start -->
+        <section class="portfolioPCver portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Protfolio</h2>
+              </div>
+            </div>
+
+            <!-- portfolio Item Container Start -->
+            <div class="swiper">
+              <div class="swiper-pagination"></div>
+              <!-- portfolio Item1 Start -->
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio__container portfolio__card">
+                    <div class="portfolioInner">
+                      <img
+                        src="./images/DANDI.png"
+                        alt="프로젝트1 단디"
+                        class="portfolio__img"
+                      />
+                      <div class="portfolioTxt">
+                        <p class="portfolio__subtitle">Team Project</p>
+                        <h3 class="portfolio__title">GPS인증 하이브리드 앱</h3>
+
+                        <p class="details__description">
+                          Open API을 활용한 GPS 인증 하이브리드 앱 개발<br /><br />
+                          대구 각 관광명소를 배경으로 돌아보며 QR코드를 스캔하여
+                          스탬프를 모으면서 대구 관광명소를 알리고, 추가적인
+                          지역발전을 도모하는 목표로 기획
+                        </p>
+                        <br />
+                      </div>
+                    </div>
+
+                    <ul class="details__info portfolioDetail">
+                      <li>
+                        <b>제작 기간</b>
+                        <p>2023.02.01. ~ 2023.02.28.</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>사용기술</b>
+                        <p>HTML, CSS, JavaScript, React, node.js, Rest API</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>역할</b>
+                        <p>웹 퍼블리싱, 프론트엔드 개발, 백엔드 개발</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        • React Hook을 이용한 상태관리<br />
+                        • Netlify를 이용한 React 프로젝트 배포<br />
+                        • 로그인, 회원가입 기능 구현<br />
+                        • Node.js(Express)를 활용하여 애플리케이션 서버 구축<br />
+                        • Axios를 활용하여 서버와 통신<br />
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>링크</b>
+                        <p>
+                          <a href="./ppt/DANDI_ppt.html" target="_blank"
+                            >프로젝트 기획 보고서</a
+                          ><br />
+                          <a href="https://dandi21.netlify.app/" target="_blank"
+                            >프로젝트 사이트 주소</a
+                          >
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- portfolio Item2 Start -->
+                <div class="swiper-slide">
+                  <div class="portfolio__container portfolio__card">
+                    <div class="portfolioInner">
+                      <img
+                        src="./images/coolstay.png"
+                        alt="프로젝트2 꿀스테이"
+                        class="portfolio__img"
+                      />
+                      <div class="portfolioTxt">
+                        <p class="portfolio__subtitle">Team Project</p>
+                        <h3 class="portfolio__title">
+                          Open API를 활용한 마케팅 목적의 랜딩페이지 제작
+                        </h3>
+
+                        <p class="details__description">
+                          카카오 알림톡 API를 이용한 마케팅 자동화 서비스
+                          프로젝트<br /><br />
+                          대상을 선정한 이유와 고객의 유입부터
+                          수익화(결제유도)까지의 흐름 등 모든것이 마케팅이
+                          중심이 되었던 프로젝트
+                        </p>
+                      </div>
+                    </div>
+
+                    <ul class="details__info portfolioDetail">
+                      <li>
+                        <b>재작 기간</b>
+                        <p>2023.01.04. ~ 2023.01.31.</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>사용기술</b>
+                        <p>HTML, CSS, JavaScript, REST API</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>역할</b>
+                        <p>프로젝트 기획 및 피드백 / 웹 퍼블리싱</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        • 웹 표준, 웹 접근성을 고려한 반응형 웹 구현 <br />
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>수상</b>
+                        <p>
+                          영진전문대학 주최. Open API 활용 콘텐츠 개발 공모전
+                          은상 수상
+                        </p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>링크</b>
+                        <p>
+                          <a href="./ppt/COOLSTAY_ppt.html" target="_blank"
+                            >프로젝트 기획 보고서</a
+                          ><br />
+                          <a
+                            href="http://jin13181.ivyro.net/coolstay/"
+                            target="_blank"
+                            >프로젝트 사이트 주소</a
+                          >
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- portfolio Item2 End -->
+
+                <!-- portfolio Item3 Start -->
+                <div class="swiper-slide">
+                  <div class="portfolio__container portfolio__card">
+                    <div class="portfolioInner">
+                      <img
+                        src="./images/DEBEC.png"
+                        alt="프로젝트3 대구백화점 홈페이지 리뉴얼"
+                        class="portfolio__img"
+                      />
+                      <div class="portfolioTxt">
+                        <p class="portfolio__subtitle">Team Project</p>
+                        <h3 class="portfolio__title">
+                          Open API를 활용한 SNS 연동 회원관리 시스템
+                        </h3>
+
+                        <p class="details__description">
+                          대구에 위치한 [대구백화점]을 대상으로 Open API를
+                          이용한 SNS 연동 회원관리 시스템 프로젝트
+                        </p>
+                      </div>
+                    </div>
+
+                    <ul class="details__info portfolioDetail">
+                      <li>
+                        <b>제작 기간</b>
+                        <p>2022.11.17. ~ 2022.12.16.</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>사용기술</b>
+                        <p>
+                          HTML, CSS, JavaScript, jQuery, PHP, MySQL, REST API
+                        </p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>역할</b>
+                        <p>웹 퍼블리싱, 프론트엔드 개발, 백엔드 개발</p>
+                        <br />
+                      </li>
+
+                      <li>
+                        • 웹 표준, 웹 접근성을 고려한 반응형 웹 구현 <br />
+                        • PHP와 REST API를 활용하여 소셜 로그인 기능 구현<br />
+                        • 인스타그램 Open API를 이용해서 SNS 게시물 연동 기능
+                        구현<br />
+                        • 관리자 페이지로 회원 정보 수정 및 삭제 구현 <br />
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>수상</b>
+                        <p>
+                          송암재단 주최. 송암재단 제 11회 송암전 최우수상 수상
+                        </p>
+                        <br />
+                      </li>
+
+                      <li>
+                        <b>링크</b>
+                        <p>
+                          <a href="./ppt/DEBEC_ppt.html" target="_blank"
+                            >프로젝트 기획 보고서</a
+                          ><br />
+                          <a
+                            href="http://jin13181.ivyro.net/debec/"
+                            target="_blank"
+                            >프로젝트 사이트 주소</a
+                          >
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- portfolio Item3 End -->
+                </div>
+              </div>
+              <!-- portfolio Item1 End -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </section>
+        <!-- ===== Portfolio Section End ===== -->
+        <!-- ===== Stack Section Start ===== -->
+        <section class="stack section color" id="stack" data-color="beige">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Stack</h2>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="">
+                <div class="">
+                  <div class="">
+                    <!-- ===== Timeline iTem Start ===== -->
+                    <div class="stackBoxWrap">
+                      <div class="stackBox">
+                        <h4 class="">백엔드 개발</h4>
+                        <div class="innerBoxWrap">
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/node.png" alt="Node.js" />
+                            </div>
+                            <p>Node.js</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/express.png" alt="Express" />
+                            </div>
+                            <p>Express</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/php.png" alt="PHP" />
+                            </div>
+                            <p>PHP</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="stackBox">
+                        <h4 class="">데이터베이스</h4>
+                        <div class="innerBoxWrap">
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/mysql.png" alt="MySQL" />
+                            </div>
+                            <p>MySQL</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/mongodb.png" alt="MongoDB" />
+                            </div>
+                            <p>MongoDB</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="stackBox">
+                        <h4 class="">프론트엔드 개발</h4>
+                        <div class="innerBoxWrap">
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <div class="innerImgBox">
+                                <img src="./images/react.png" alt="React" />
+                              </div>
+                            </div>
+                            <p>React</p>
+                          </div>
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <div class="innerImgBox">
+                                <img src="./images/js.png" alt="JavaScript" />
+                              </div>
+                            </div>
+                            <p>JavaScript</p>
+                          </div>
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/jquery.png" alt="jQuery" />
+                            </div>
+                            <p>jQuery</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="stackBox">
+                        <h4 class="">웹 퍼블리싱</h4>
+                        <div class="innerBoxWrap">
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/html5.png" alt="HTML5" />
+                            </div>
+                            <p>HTML5</p>
+                          </div>
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <div class="innerImgBox">
+                                <img src="./images/css3.png" alt="CSS3" />
+                              </div>
+                            </div>
+                            <p>CSS3</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/js.png" alt="JavaScript" />
+                            </div>
+                            <p>JavaScript</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/jquery.png" alt="jQuery" />
+                            </div>
+                            <p>jQuery</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="stackBox">
+                        <h4 class="">UI/UX 디자인</h4>
+                        <div class="innerBoxWrap">
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img
+                                src="./images/photoshop.png"
+                                alt="Photoshop"
+                              />
+                            </div>
+                            <p>Adobe Photoshop</p>
+                          </div>
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img
+                                src="./images/illustrator.png"
+                                alt="Illustrator"
+                              />
+                            </div>
+                            <p>Adobe Illustrator</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/xd.png" alt="" />
+                            </div>
+                            <p>AdobeXD</p>
+                          </div>
+
+                          <div class="innerBox">
+                            <div class="imgBox">
+                              <img src="./images/figma.png" alt="Figma" />
+                            </div>
+                            <p>Figma</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ===== Stack Section End ===== -->
+
+        <!-- ===== Contact Section Start ===== -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact</h2>
+              </div>
+            </div>
+            <h4 class="contact-sub-title padd-15">메일로 연락주시면</h4>
+            <h4 class="contact-sub-title padd-15">
+              빠른 시일 내로 답변드리겠습니다.
+            </h4>
+            <div class="row"></div>
+            <!-- ===== Contact Form ===== -->
+            <form class="contact-form padd-15" id="contact-form">
+              <input type="hidden" name="contact_number" />
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="이름"
+                      name="user_name"
+                    />
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="이메일"
+                      name="user_email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="제목"
+                      name="from_title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      placeholder="내용"
+                      name="message"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <button type="submit" class="btn" id="form-submit">
+                      메일 보내기
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- ===== Contact Section End ===== -->
+
+        <!-- ===== Main Content End ===== -->
+      </div>
+      <!-- ===== Main Container End ===== -->
+    </div>
+    <!-- ===== typed.js ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- ===== mixitup ===== -->
+
+    <!-- ===== EmailJS ===== -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <!-- ===== Custom JS ===== -->
+    <script src="./js/main.js" defer></script>
+
+    <!-- <script src="./js/navOpen.js"></script> -->
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+  </body>
+</html>
