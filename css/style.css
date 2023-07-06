@@ -586,6 +586,13 @@ nav li {
   margin-bottom: 0.5rem;
   flex: 1;
 }
+.portfolio__link {
+  margin: 10px 0 20px 0;
+}
+
+.portfolio__link a:hover {
+  color: #203929;
+}
 
 .portfolio__button {
   color: var(--skin-color);
