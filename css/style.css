@@ -799,10 +799,6 @@ button {
   .portfolio__popup-content {
     grid-template-columns: 1fr;
   }
-  .portfolio__popup-close {
-    top: inherit;
-    bottom: 30px;
-  }
 }
 
 @media (max-width: 576px) {
