@@ -26,6 +26,7 @@ document.addEventListener("click", (e) => {
   if (e.target.classList.contains("portfolio__button")) {
     togglePortfolioPopup();
     portfolioItemDetails(e.target.parentElement);
+    document.querySelector(".upup").style.opacity = "0";
   }
 });
 
@@ -33,6 +34,11 @@ function togglePortfolioPopup() {
   document.querySelector(".portfolio__popup").classList.toggle("open");
 }
 
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("portfolio__popup-close")) {
+    document.querySelector(".upup").style.opacity = "1";
+  }
+});
 document
   .querySelector(".portfolio__popup-close")
   .addEventListener("click", togglePortfolioPopup);
@@ -75,3 +81,5 @@ window.onload = function () {
       );
     });
 };
+//
+// document.querySelector(".portfolio__popup").getElementsByClassName(".open");
